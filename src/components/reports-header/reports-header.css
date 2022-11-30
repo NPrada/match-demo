@@ -1,0 +1,13 @@
+.reports-header{
+  padding: 35px 0 27px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.reports-header-controls{
+  display: flex;
+  gap: 23px
+}

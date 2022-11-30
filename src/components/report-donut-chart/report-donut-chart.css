@@ -1,0 +1,37 @@
+.donut-chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.donut-chart .report-surface{
+  width: 100%;
+}
+
+.donut-chart-legend{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.legend-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.legend-color-pick{
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+.donut-wrapper{
+  margin: 90px 0;
+  height: 260px;
+  width: 260px;
+}
+
+

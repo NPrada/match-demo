@@ -1,0 +1,6 @@
+.button {
+  border-radius: 5px;
+  background-color: var(--bg-color-primary); 
+  padding: var(--input-padding-v) var(--input-padding-h);
+  color: var(--text-color-inverted);
+}

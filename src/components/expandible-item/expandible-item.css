@@ -1,0 +1,46 @@
+
+.expandible-item-button{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  background-color: transparent;
+}
+
+.expandible-item-button > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expandible-item-panel{
+  padding: 14px 16px;
+}
+
+
+
+.enter-anim {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+  transition-duration: 200ms; 
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+}
+
+.leave-anim {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+  transition-duration: 75ms; 
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+  
+}
+
+.enter-anim-to,
+.leave-anim-from {
+  --transform-scale-x: 1;
+  --transform-scale-y: 1; 
+  opacity: 1; 
+}
+
+.enter-anim-from,
+.leave-anim-to {
+  --transform-scale-x: .95;
+  --transform-scale-y: .95; 
+  opacity: 0; 
+}

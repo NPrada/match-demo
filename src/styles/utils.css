@@ -1,0 +1,21 @@
+.truncate-text{
+  display: block; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+
+.hoverable:hover {
+  transition: all;
+  transition-duration: 100ms;
+  opacity: 0.8;
+}
+
+
+.text-highlighted {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}

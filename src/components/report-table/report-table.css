@@ -1,0 +1,36 @@
+.report-table {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-unit-m);
+}
+
+
+.report-table-row {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  padding: 6px 10px;
+}
+
+
+.report-table-row:nth-child(odd){
+  background-color: var(--bg-surface-light);
+} 
+
+
+.report-table-cell {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164.4%;
+  text-align: center;
+}
+
+
+.report-table-cell:first-child {
+  text-align: start;
+}
+
+.report-table-cell:last-child {
+  text-align: end;
+}

@@ -1,0 +1,23 @@
+:root {
+
+  --highlight-color: #005B96;
+
+  --border-color:  #F3F6F9;
+  --account-color: #F6CA65;
+
+  --text-color: #011F4B;
+  --text-color-highlighted: var(--highlight-color);
+  --text-color-secondary: #7E8299;
+  --text-color-inverted: white;
+
+  --bg-color-primary: var(--highlight-color);
+  --bg-color-secondary: #1BC5BD;
+
+
+  --bg-surface-dark: #F1FAFE;
+  --bg-surface-light: white;
+
+
+  --input-padding-h: 10px;
+  --input-padding-v: 8px;
+}

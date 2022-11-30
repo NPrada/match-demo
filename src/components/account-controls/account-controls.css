@@ -1,0 +1,24 @@
+.account-controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-controls-picture{
+  width: 43px;
+  height: 43px;
+  border-radius: 5px;
+  background-color: var(--account-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 11px;
+}
+
+.account-controls-picture-initials{
+  text-transform: uppercase;
+  color: var(--text-color-inverted);
+  font-weight: 700;
+  line-height: 27px;
+  font-size: 23px;
+}

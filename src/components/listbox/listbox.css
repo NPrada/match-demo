@@ -1,0 +1,96 @@
+.listbox {
+  position: relative;
+  width: 135px; 
+}
+
+.listbox-container {
+  height: 100%;
+}
+
+.listbox-button {
+  position: relative; 
+  padding: var(--input-padding-v) 2.5rem var(--input-padding-v) var(--input-padding-h);
+
+  background-color: var(--bg-color-secondary); 
+  color: var(--text-color-inverted);
+  text-align: left; 
+  width: 100%; 
+  border-radius: 5px; 
+  cursor: default; 
+}
+
+
+.text-styles {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+.listbox-button-icon{
+  display: flex; 
+  position: absolute; 
+  top: 0;
+  bottom: 0; 
+  right: 0; 
+  padding-right: 0.5rem; 
+  align-items: center; 
+  pointer-events: none; 
+}
+
+.listbox-button-icon svg{
+  fill: var(--text-color-inverted); 
+  width: 1.25rem; 
+  height: 1.25rem; 
+}
+
+
+.listbox-options-container {
+  padding: 0;
+  overflow: auto; 
+  position: absolute; 
+  padding-top: 0.25rem;
+  padding-bottom: 13px; 
+  margin-top: 0.25rem; 
+  background-color: var(--bg-color-secondary); 
+  font-size: 1rem;
+  line-height: 1.5rem; 
+  width: 100%; 
+  border-radius: 0.375rem; 
+  box-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); 
+  --ring-color: #000000; 
+  --ring-opacity: 0.05; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+
+  list-style-type: none;
+}
+
+.listbox-option {
+  position: relative; 
+  padding: 8px 13px 0 13px;
+  cursor: default; 
+  user-select: none; 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color-inverted)
+}
+
+.lisbox-option-icon svg {
+  width: 1.25rem; 
+  height: 1.25rem; 
+}
+
+/* transitions */
+.leave-transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform; 
+  transition-duration: 100ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1); 
+}
+
+.opacity-100{
+  opacity: 1;
+}
+.opacity-0{
+  opacity: 0;
+}
